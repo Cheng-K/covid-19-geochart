@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Worldwide Covid-19 Case Visualizer</title>
+    <link rel = "stylesheet" type = "text/css" href = "css/normalize.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/main.css">
+</head>
+<body>
+    <div class = "title">Daily Covid-19 case as per </div>
+
+    <div id="regions_div" ></div>
+    <div class = "caption">
+    <strong>Grey regions indicate no data was collected</strong>
+    </div>
+    <section class = "buttonSelection">
+        <button id = "dailyCase">Daily Covid-19 case</button>
+        <button id = "dailyDeaths">Daily deaths</button>
+        <button id = "totalCase">Total Covid-19 case</button>
+        <button id = "totalDeaths">Total deaths</button>
+        <button id = "totalFullyVacPerHund">Total fully vaccinated people per hundred</button>
+    </section>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+    <script type="text/javascript" src="/javascript/main.js"></script>
+</body>
+<footer>
+    <h4>Made by Cheng Kei with <a href = "https://www.onemonth.com" target = "_blank">OneMonth</a> & <a href = "https://developers.google.com/chart" target = "_blank">Google Charts</a> </h4>
+    <h5>All data are collected from Our World in Data <a href = "https://github.com/owid/covid-19-data/tree/master/public/data" target = "_blank">here</a></h5>
+
+</footer>
+</html>
